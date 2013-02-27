@@ -1,0 +1,15 @@
+%%% -*- mode: erlang -*-
+{application, recaptcherl,
+ [
+  {description, "Recaptcha API Client"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets
+                 ]},
+  {env, [
+         {private_key, "XXXXX"}
+        ]}
+ ]}.
